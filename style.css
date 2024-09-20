@@ -1,0 +1,70 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.highlight {
+    color: red;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+h2 {
+    color: #333;
+}
+code {
+    background-color: #f0f0f0;
+    padding: 2px 4px;    
+     border-radius: 4px;    
+}   
+.attribute {
+    margin-bottom: 20px; /* add a gap between each element */
+    padding: 10px; /* add some padding around the content */
+    border-bottom: 1px solid #3e03e0d7; /* add a border between each element */
+}
+  
+.attribute strong {
+    font-weight: bold; /* make the strong text bold */
+}
+  
+.attribute code {
+    background-color: pink; /* add a background color to the code blocks */
+    padding: 2px 5px; /* add some padding around the code blocks */
+    border-radius: 6px; /* add a border radius to the code blocks */
+}
+  
+.back-to-top {
+    background-color: #4CAF50; /* green background color */
+    color: #ffffff; /* white text color */
+    border: none; /* remove border */
+    padding: 10px 20px; /* add padding */
+    font-size: 16px; /* increase font size */
+    cursor: pointer; /* change cursor to pointer */
+    text-decoration: none; /* remove underline */
+    border-radius: 5px; /* add rounded corners */
+}
+  
+.back-to-top:hover {
+    background-color: #3e8e41; /* darker green background color on hover */
+}
